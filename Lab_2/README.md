@@ -9,8 +9,12 @@ We have implemented a simple combinational circuit on our FPGA. This involves as
 2. **Assign I/O Pins:** Map inputs and outputs to FPGA pins.
 
 3. **Synthesize the Design:** Use Vivado to synthesize and implement the design.
+ 
+4. **Design the testbench system verilog code:** Use code editor to write the test bench code and add it with the rtl file in a folder.
 
-4. **Program the FPGA:** Burn the System Verilog code onto the FPGA.
+5. **Test bench on Modelsim:** Upload the folder on the Model sim and simuate bench file after compiling.
+
+6. **Program the FPGA:** Burn the rtl System Verilog code onto the FPGA.
 
 ### Tools Required
 
@@ -19,3 +23,5 @@ We have implemented a simple combinational circuit on our FPGA. This involves as
 - FPGA Development Board (NEXYS-A7)
 
 - USB Programming Cable
+ 
+- Model Sim
