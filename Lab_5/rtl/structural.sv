@@ -1,4 +1,4 @@
-module lab5(
+module structural(
 input logic a,
 input logic b,
 input logic c,
